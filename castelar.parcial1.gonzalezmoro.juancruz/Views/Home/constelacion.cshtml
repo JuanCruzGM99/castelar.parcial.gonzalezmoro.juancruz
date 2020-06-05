@@ -8,11 +8,28 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>constelacion</title>
+    <title>Constelaciones</title>
+    <script src="~/Scripts/Constelaciones.js"></script>
+    @Styles.Render("~/Content/css")
 </head>
 <body>
-    <div> 
-        hola
-    </div>
+    <form>
+        <label for="InputSiglo">Siglo:</label><br>
+        <input type="text" id="InputSiglo" name="InputSiglo" required><br>
+        <label for="InputNombre">Nombre:</label><br>
+        <input type="text" id="InputNombre" name="InputNombre" required>
+        <br>
+        <button type="reset" onclick="Guardar();">Guardar Constelacion</button>
+    </form>
+
+    <h2>Constelaciones</h2>
+
+    <table id="table">
+        <tr>
+            <th>Siglo</th>
+            <th>Nombre</th>
+        </tr>
+
+    </table>
 </body>
 </html>
