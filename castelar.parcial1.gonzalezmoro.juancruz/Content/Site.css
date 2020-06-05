@@ -1,24 +1,61 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿.headercosmo {
+    background-color: #286af0;
+    height: 70px;
 }
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.headercosmo h2{
+    padding-top: 15px;
+    margin: 0px;
+    font:bold;
 }
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.footercosmo {
+    background-color: #286af0;
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+    margin-bottom: 0px;
 }
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.footercosmo p {
+        color: white;
+        text-decoration: underline;
+        padding-top: 5px;
+        margin-bottom: 0px;
+}
+.bodypage{
+    display:flex;
+}
+.bodycosmo{
+    text-align:left;
+}
+.maincosmo {
+    background-color: #ccc;
+    width: 80%;
+    height: calc(100vh - 70px - 30px);
+}
+.imagen {
+    width: 250px;
+}
+.imagencosmo{
+    margin-top:39px;
+    text-align:center;
+}
+.parrafo p{
+    margin:0px;
+    padding-bottom:10px;
+    font-size: 12px;
+}
+.parrafo{
+    margin-bottom: 60px;
+}
+.barra {
+    margin-top: 20px;
+    width: 20%;
+}
+.barra a{
+    border: solid 1px red;
+    padding:20px;
+    text-decoration:none;
+    color:black;
+    padding-right: 104px;
+    padding-left: 0px;
+    margin-left: 10px;
 }

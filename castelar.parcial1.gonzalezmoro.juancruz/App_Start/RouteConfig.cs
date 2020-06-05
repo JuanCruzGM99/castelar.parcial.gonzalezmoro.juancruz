@@ -16,7 +16,7 @@ namespace castelar.parcial1.gonzalezmoro.juancruz
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "cosmo", id = UrlParameter.Optional }
             );
         }
     }
